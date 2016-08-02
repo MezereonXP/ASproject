@@ -9,10 +9,8 @@ import android.app.Application;
  * @author Administrator 
  * 
  */  
-public class SysApplication extends Application {  
-    //����list��������ÿһ��activity�ǹؼ�  
-    private List<Activity> mList = new LinkedList<Activity>();  
-    //Ϊ��ʵ��ÿ��ʹ�ø���ʱ�������µĶ���������ľ�̬����  
+public class SysApplication extends Application {
+    private List<Activity> mList = new LinkedList<Activity>();
     private static SysApplication instance;   
     //���췽��  
     private SysApplication(){}  
