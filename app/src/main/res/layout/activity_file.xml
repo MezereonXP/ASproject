@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+      android:layout_height="match_parent"
+     tools:context="com.checkfile.checkfile.Activity.FileActivity"
+
+     xmlns:app="http://schemas.android.com/apk/res-com.checkfile.checkfile">
+   <FrameLayout
+  		android:id="@+id/mHomeContent"
+         android:layout_width="match_parent"
+         android:layout_height="520dp">
+   </FrameLayout>
+       <RadioGroup
+           android:id="@+id/group"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:orientation="horizontal" 
+           android:layout_marginTop="520dp">
+
+           <RadioButton
+               android:id="@+id/bottom_tabbar_rb_1"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:layout_weight="1"
+               android:button="@null"
+               android:drawableTop="@drawable/readbutton"
+               android:gravity="center"  
+                android:text="已批阅"  
+                android:textSize="13sp"
+               android:clickable="true"
+               />
+
+           <RadioButton
+               android:id="@+id/bottom_tabbar_rb_2"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:layout_weight="1"
+               android:drawableTop="@drawable/unreadbutton"
+               android:button="@null"
+               android:gravity="center"  
+                android:text="未批阅"  
+                android:textSize="13sp"
+               android:clickable="true"
+               />
+
+           <RadioButton
+               android:id="@+id/bottom_tabbar_rb_3"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+				android:layout_marginRight="10dp"
+				android:layout_weight="1"
+				android:drawableTop="@drawable/infobutton"
+               android:button="@null"
+               android:gravity="center"  
+                android:text="个人信息"  
+                android:textSize="13sp"
+               android:checked="true" 
+               android:clickable="true"/>
+       </RadioGroup>
+ 
+
+</RelativeLayout>

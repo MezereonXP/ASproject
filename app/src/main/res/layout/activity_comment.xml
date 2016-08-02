@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/commentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="120dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/yourcomment"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/comment"
+        android:gravity="top"
+        android:layout_width="330dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape4"
+        android:hint="@string/pleaseinputyourcomment" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/commitButton"
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/commit"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/darker_gray" />
+
+</LinearLayout>

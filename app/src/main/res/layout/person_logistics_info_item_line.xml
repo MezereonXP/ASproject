@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#F2F2F2"
+    android:orientation="horizontal"
+>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F2F2F2"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <com.checkfile.checkfile.View.CustomTextView
+            android:id="@+id/info_txt"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical"
+            android:text="张三"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <com.checkfile.checkfile.View.CustomTextView
+            android:id="@+id/dateTime_txt"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="2015-1-1"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#F2F2F2"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <ImageView
+            android:id="@+id/yesorno"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+    />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <ScrollView
+       android:id="@+id/scrollView1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="60dp"
+       android:background="@android:color/darker_gray"
+
+        >
+
+       
+       <uk.co.senab.photoview.PhotoView
+        android:id="@+id/file_picture"
+           android:src="@mipmap/background"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+         	android:adjustViewBounds="true"
+           />
+    </ScrollView>
+<LinearLayout 
+    
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+	android:orientation="horizontal"
+	android:background="@android:color/darker_gray"
+    >
+    
+    	<Button
+	    android:id="@+id/checktheroutine"
+	    android:layout_width="120dp"
+	    android:layout_height="60dp"
+	    android:layout_weight="1"
+	    android:background="@drawable/shape2"
+	    android:gravity="center"
+	    android:layout_marginTop="2.5dp"
+	    android:layout_marginBottom="2.5dp"
+	    android:text="查看流程"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginLeft="5dp"
+	    android:textColor="@android:color/holo_blue_light" 
+	    />
+
+	<Button
+	    android:id="@+id/sayyes"
+	    android:layout_width="120dp"
+	    android:layout_height="60dp"
+	    android:layout_weight="1"
+	    android:background="@drawable/shape"
+	    android:gravity="center"
+	    android:text="批阅"
+	    android:layout_marginBottom="2.5dp"
+	    android:layout_marginTop="2.5dp"
+	   	android:layout_marginRight="5dp"
+	    android:layout_marginLeft="5dp"
+	    android:textColor="@android:color/white" />
+    
+    
+    
+</LinearLayout>
+
+
+</RelativeLayout>
