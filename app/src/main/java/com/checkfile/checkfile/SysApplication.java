@@ -5,7 +5,7 @@ import java.util.List;
 import android.app.Activity;   
 import android.app.Application;   
 /** 
- * һ���� �����������к�̨activity 
+ * ̨activity
  * @author Administrator 
  * 
  */  

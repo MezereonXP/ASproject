@@ -9,17 +9,17 @@
         android:id="@+id/setting_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:dividerHeight="5dp"></ListView>
+        android:dividerHeight="5dp"
+       ></ListView>
     
-    <Button
+    <com.gc.materialdesign.views.ButtonRectangle
         android:id="@+id/lgout_button"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@drawable/logout_button_selector"
+        android:background="#EE0000"
         android:text="@string/lgout"
-        android:textSize="18sp"
-        android:textColor="@android:color/white"/>
+        android:textSize="8sp" />
 
 </LinearLayout>

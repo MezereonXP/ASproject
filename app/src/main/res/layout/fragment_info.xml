@@ -5,17 +5,15 @@
 
     <!--android:cacheColorHint="@android:color/transparent" 滚动ListView时不会掉黑 。
     滚动时，重绘View的时候就不会有背景颜色。-->
-    
+
     
     <com.checkfile.checkfile.View.PullToZoomListView
         android:id="@+id/listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="70dp"
-        android:dividerHeight="5dip"
+        android:dividerHeight="2dip"
         android:divider="@android:color/darker_gray"
         >
         
     </com.checkfile.checkfile.View.PullToZoomListView>
-
 </RelativeLayout>
